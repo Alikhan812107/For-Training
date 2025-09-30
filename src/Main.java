@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        Person alikhan = new Person("Alikhan", 25);
+    Student alikhan1 = new Student("Alikhan", 18, "AITU");
+            alikhan1.introduce();
 
-        Person.SayHello(alikhan);
 
     }
 }

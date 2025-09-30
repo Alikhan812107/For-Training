@@ -7,8 +7,8 @@ public class Person {
         this.age = age;
     }
 
-    static void SayHello(Person p) {
-        System.out.println("Hi, My name is " + p.name + ", I am " + p.age + " years old");
+    void introduce() {
+        System.out.println("Name is " + name + ", age is " + age);
     }
 
 }
