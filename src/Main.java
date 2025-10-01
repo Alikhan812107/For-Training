@@ -1,9 +1,8 @@
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] ARRGGGSS) {
 
-    Student alikhan1 = new Student("Alikhan", 18, "AITU");
-            alikhan1.introduce();
-
+        Piano mypiano = new Piano();
+        mypiano.play();
 
     }
 }
